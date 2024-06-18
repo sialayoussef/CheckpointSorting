@@ -1,0 +1,16 @@
+ALGORITHM Insertion-Sort
+   VAR
+    A : ARRAY_OF INTEGER[];
+    key,i,j : INTEGER;
+   BEGIN
+     FOR i FROM 2 TO A.length STEP 1  DO
+         key := A[j];
+         i := j – 1;
+
+         WHILE (i > 0 AND A[i] > key) DO
+            A[i + 1] = A[i]
+            i = i -1
+         END_WHILE
+         A[i + 1] = key
+     END_FOR
+   END
