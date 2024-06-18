@@ -3,7 +3,7 @@ ALGORITHM Insertion-Sort
     A : ARRAY_OF INTEGER[];
     key,i,j : INTEGER;
    BEGIN
-     FOR i FROM 2 TO A.length STEP 1  DO
+     FOR j FROM 2 TO A.length STEP 1  DO
          key := A[j];
          i := j – 1;
 
